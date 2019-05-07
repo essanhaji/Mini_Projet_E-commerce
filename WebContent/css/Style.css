@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 1px;
+	padding-bottom:50px;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #680606;
+	text-decoration: underline;
+}
+.head {
+	background-color: white;
+	padding: 1% 7% 1% 7%;
+	font-family: arial,sans-serif;
+}
+.head > img {
+	float:left;
+}
+.head > h1 {
+	color:black;
+}
+
+h1 {
+	font-size: 45px;
+	text-align:center;
+	font-family: cursive,sans-serif;
+	color: #843f3f;
+}
+
+.Acc {
+	margin-left:20%;
+}
+
+.Link {
+	background-color: white;
+	padding: 10px;
+	margin:20px;
+	width:30%;
+	float:left;
+	text-align:center;
+	box-shadow: 0px 11px 11px 0px #ab7676;
+}
+
+.Link > a {
+	text-alinge:center;
+}
+a {
+	font-family: sans-serif;
+	text-decoration : none;
+	font-weight: bold;
+	color: black;
+}
+
+nav {
+	border-bottom: 2px white solid;
+	border-left: 2px white solid;
+	border-right: 2px white solid;
+	text-align: center;
+	background-color: #f5e5e5;
+	border-top: black 2px solid;
+	box-shadow: 6px 11px 15px 1px #ab7676;
+	
+}
+li:hover {
+	background-color: white;
+}
+ul {
+	text-align:center;
+	margin: 0px;
+	padding: 1%;
+} 
+
+nav li {
+	display: inline;
+	padding: 1%;
+}
+
+
+.BtnG {
+	padding: 7px 20px;
+	margin: 0px;	
+	font-size: 14px;
+	border-radius: 5px;
+	border: 1px solid;
+	background-color: white;
+	font-weight: bold;
+	box-shadow: 0px 11px 11px 0px #ab7676;
+	display: inline !important;
+	margin: 1% 2% !important;
+}
+
+.BtnG:disabled {
+	font-size: 14px;
+	color: black;
+	box-shadow: none;
+	background: #b74848;
+	cursor:auto;
+}
+
+h3,h2 {
+	text-align: center;
+	font-family: arial,sans-serif;
+}
+
+form {
+	text-align:center;
+}
+
+label {
+	font-size: 20px;
+	padding: 2px;
+	margin: 0px;
+	font-family: arial,sans-serif;
+}
+
+table {
+	margin: 1% 0 0 33%;
+	border: 1px solid black;
+	padding: 0;
+}
+
+thead {
+	background-color:white;
+}
+th{
+	padding: 7px;
+	border: 1px solid;
+}
+
+td {
+	border-top: 1px solid black;
+	font-weight: bold;
+	margin: 0;
+	padding: 3px;
+	text-align: center;
+}
+
+td:first-child {
+	border-right: 1px solid black;
+}
+
+tr:nth-child(2n) {
+	background-color: #f5e5e5;
+}
+
+.Err {
+	text-align: center;
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+}
+
+.MainIdtf {
+	background: white;
+	width: 30%;
+	margin-left: 33%;
+	padding: 2%;
+	border-radius: 49%;
+	box-shadow: 0px 11px 11px 0px #ab7676;
+}
+
+.inpt {
+	margin: 5px;
+}
+
+input[type=text] {
+	display: block;
+	margin: 2% 25%;
+	width: 45%;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	font-weight: bold;
+}
+input[type=password] {
+	display: block;
+	margin: 2% 25%;
+	width: 45%;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	font-weight: bold;
+}
+input[type=submit] {
+	display: block;
+	margin: 2% 38%;
+	width: 25%;
+	padding: 1%;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+input[type=file] {
+	display: block;
+margin: 2% 24%;
+	width: 55%;
+	padding: 1%;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+input[type=reset] {
+	display: block;
+	margin: 2% 38%;
+	width: 25%;
+	padding: 1%;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+select {
+	display: block;
+	margin: 2% 30%;
+	width: 40%;
+	padding: 1%;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+input:focus {
+	border:2.5px solid #f2b014;
+}
+
+#lng{
+	margin: 5px;
+	width: 7%;
+	padding: 3px;
+	border: none;
+	font-weight: bold;	
+	float: right;
+	position: absolute;	
+	left: 92%;	
+	top: 165px;
+}
